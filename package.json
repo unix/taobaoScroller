@@ -1,0 +1,11 @@
+{
+  "name": "taobaoscroller",
+  "version": "0.0.2",
+  "description": "模仿手机淘宝的上下拉加载",
+  "main": "taobaoScroller.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "WittBulter",
+  "license": "ISC"
+}

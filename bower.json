@@ -1,0 +1,21 @@
+{
+  "name": "taobaoscroller",
+  "description": "模仿手机淘宝的上下拉加载",
+  "main": "taobaoScroller.js",
+  "authors": [
+    "WittBulter"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.0"
+  }
+}

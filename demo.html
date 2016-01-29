@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="jquery/dist/jquery.min.js"></script>
+    <script src="taobaoScroller.js"></script>
+    <style>
+        body{
+            margin: 0;
+        }
+        h2{
+            margin: 0;
+            padding: 0;
+        }
+        .one,.two{
+            width: 100%;
+            height: 1500px;
+            position: relative;
+            background-color: antiquewhite;
+        }
+        .two{
+            background-color: brown;
+        }
+        .flex{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+<div class="" id="scroller">
+    <div class="one" id="scroller1">
+        <h2>第一屏</h2>
+        <div class="flex">
+            <span>拖动查看详情</span>
+        </div>
+    </div>
+    <div class="two" id="scroller2">
+        <h2>第二屏</h2>
+    </div>
+</div>
+
+
+
+</body>
+</html>
