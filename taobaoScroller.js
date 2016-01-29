@@ -10,7 +10,7 @@ $(function () {
     s2.hide();
 
     s.css({'transition':'transform 0.3s cubic-bezier(0, 0, 0.25, 1) 0ms','transform':'translateY(0)','height':s1.height()});
-    var h =  $ (window).height () - window.innerHeight;
+    var h =  $(document).height() - window.innerHeight;
 
     $(document).on("touchstart", function(e) {
         start = e.originalEvent.targetTouches[0].clientY;
